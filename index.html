@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.css"></link>
+
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.js">
+    </script>
+    
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/stex/stex.js">
+    </script>
+
+    <style type="text/css" media="screen">
+      .ace_editor {
+        border: 1px solid lightgray;
+        margin-bottom: 1px !important;
+        width: 100%;
+      }
+      div.spacer {
+        margin-top:16px;
+      }
+    </style>
+
+    <script src="./runlatex/runlatex-codemirror.js"></script> <!-- file runlatex-codemirror.js -->
+    
+    <style>   
+      .CodeMirror { height: auto; border: 1px solid #ddd; }
+      .CodeMirror-scroll { max-height: 300px; }
+      .CodeMirror pre { padding-left: 7px; line-height: 1.25; }
+      .banner { background: #ffc; padding: 6px; border-bottom: 2px solid silver; text-align: center }
+    </style>
+
+    <title>TeXlive</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1>TeXlive</h1>
+    </header>
+    <!--Main Content-->
+    <main>
+        <p>Welcome to TeXlive!</p>
+    </main>
+    <section id="regular-links">
+    <div class="h">
+        <pre>
+\documentclass{article}
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+\title{Your Paper}
+\author{You}
+\date{}
+\begin{document}
+\maketitle
+Hello \LaTeX{}
+\end{document}
+        </pre>
+    </div>
+    </section>
+        <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footerNav">
+            <ul>
+                <li><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank">Contact</a></li>
+                <li><a href="https://github.com/Namlete102/TeXlive" target="_blank">Github</a></li>            
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <p>&copy;TeXlive 2026. All rights reserved.</p> 
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./runlatex-codemirror.js"></script>
+</body>
+</html>

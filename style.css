@@ -1,0 +1,69 @@
+body{
+    margin:auto; 
+    max-width: 60em;
+    background-color:burlywood;
+    text-align: justify;
+}
+
+#regular-links pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow-x: auto;
+    margin:0;
+    padding: .5em;
+}
+
+
+/* Links */
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* List Items */
+
+ol li{
+    margin-left: 20px;
+    padding: 5px;
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:#111;
+    margin: 20px ;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+    color:rgb(50, 78, 192); 
+}
+.footerBottom{
+    text-align: center;
+}
+.footerBottom p{
+    font-size: 16px;
+    color:#111;
+}
